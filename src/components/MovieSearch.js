@@ -17,7 +17,7 @@ const MovieSearch = () => {
       setError('');
     } else {
       setMovie(null);
-      setError('Movie not found!');
+      setError('pani paata ledha, vurike nokamante nokeyatamena!!!');
     }
   };
 
