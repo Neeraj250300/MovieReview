@@ -17,7 +17,7 @@ const MovieSearch = () => {
       setError('');
     } else {
       setMovie(null);
-      setError('Movie not found!');
+      setError('nokkamante nokesthava erripuka, ela kaaliga vunde bhadhulu edhaina pani chusko ra bewakoof!!');
     }
   };
 
