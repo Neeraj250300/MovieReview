@@ -26,11 +26,11 @@ const MovieSearch = () => {
       <h1>🎬 IMDb Movie Search</h1>
       <input
         type="text"
-        placeholder="Cinema peru kottu Thamudu..."
+        placeholder="Enter movie name"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
-      <button onClick={fetchMovie}>Search chey be!!</button>
+      <button onClick={fetchMovie}>Search</button>
 
       {error && <p className="error">{error}</p>}
 
